@@ -8,10 +8,10 @@ socket.on('connect',function(){
 //   text:'hi nice to meet you again'
 // });
 
-socket.emit('createMessage',{
-  from:'Atik',
-  text:'Hi there!'
-});
+// socket.emit('createMessage',{
+//   from:'Atik',
+//   text:'Hi there!'
+// });
 });
 
 socket.on('disconnect',function(){
